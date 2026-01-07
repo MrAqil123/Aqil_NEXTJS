@@ -2,7 +2,6 @@
 import React, { useEffect, useRef } from "react";
 import services from "@/app/api/servicesData";
 import styles from "./ServicesStack.module.css";
-import { ImageBox } from "../IconsSVG";
 
 // respects prefers-reduced-motion
 
@@ -136,7 +135,7 @@ export default function ServicesStack() {
           <div className={`${styles.stackWrap}`}>
             {services.map((svc, i) => (
               <article
-                ref={(el) => (cardsRef.current[i] = el)}
+                ref={(el) => { cardsRef.current[i] = el }}
                 key={svc.id}
                 className={`${styles.card} flex xl:flex-row sm:flex-col gap-6   bg-light-mode-a xl:-my-14 -my-10`}
                 role="article"
