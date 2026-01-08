@@ -10,7 +10,7 @@ import NextTopLoader from 'nextjs-toploader';
 import SessionProviderComp from "@/components/nextauth/SessionProvider";
 import { AuthDialogProvider } from "./context/AuthDialogContext";
 const inter = Inter({ subsets: ["latin"] });
-
+import "";
 
 export default function RootLayout({
   children,
@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
       <html lang="en" suppressHydrationWarning>
+        <head>
+          <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        </head>
       <body className={inter.className}>
       <NextTopLoader />
       <AuthDialogProvider>
