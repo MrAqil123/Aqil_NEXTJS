@@ -145,7 +145,7 @@ export default function ServicesStack() {
                   {}
                 <div className={`marker-poiner xl:h-full  xl:w-full rounded-2xl xl:translate-y-0 sm:-translate-y-10 sm:h-42 [clip-path:none]  sm:w-full  bg-center    ${styles.imagePath} `} style={{backgroundColor: "#fff", backgroundImage: `url(${svc.Img})`, backgroundPosition: 'center' , backgroundSize : 80+"%" , backgroundRepeat: 'no-repeat'}}></div>
 
-                  <div className={`${styles.icon}  w-fit xl:bg-white bg-light-mode-a   rounded-full   absolute sm:top-4 sm:left-4 xl:p-16 sm:p-2 shadow-dark-mode-a/90 `}>{svc.icon}</div>
+                  <div className={`${styles.icon}  w-fit xl:bg-white  xl:text-light-mode-a bg-light-mode-a  rounded-full   absolute sm:top-4 sm:left-4 xl:p-16 sm:p-2 shadow-dark-mode-a/90  `}>{svc.icon}</div>
                   </div>
                 <div className={`${styles.cardInner} sm:-translate-y-10`}>
                   <h3 className={`${styles.title} `}>{svc.title}</h3>
