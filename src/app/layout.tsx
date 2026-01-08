@@ -5,6 +5,7 @@ import Footer from "@/components/Layout/Footer";
 import { ThemeProvider } from "next-themes";
 import ScrollToTop from '@/components/ScrollToTop';
 import Aoscompo from "@/utils/aos";
+import 'aos/dist/aos.css'
 import NextTopLoader from 'nextjs-toploader';
 import SessionProviderComp from "@/components/nextauth/SessionProvider";
 import { AuthDialogProvider } from "./context/AuthDialogContext";
