@@ -10,7 +10,6 @@ import NextTopLoader from 'nextjs-toploader';
 import SessionProviderComp from "@/components/nextauth/SessionProvider";
 import { AuthDialogProvider } from "./context/AuthDialogContext";
 const inter = Inter({ subsets: ["latin"] });
-import "";
 
 export default function RootLayout({
   children,
