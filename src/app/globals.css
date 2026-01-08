@@ -1,7 +1,8 @@
-@import 'tailwindcss'; 
+@import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 body{
  background: var(--color-dark-mode-a);    
